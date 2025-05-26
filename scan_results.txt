@@ -1,0 +1,26 @@
+# Nmap 7.94SVN scan initiated Mon May 26 19:35:26 2025 as: nmap -sS -oN scan_results.txt 10.0.2.15/24
+Nmap scan report for 10.0.2.2
+Host is up (0.0037s latency).
+Not shown: 995 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+445/tcp  open  microsoft-ds
+1042/tcp open  afrog
+1043/tcp open  boinc
+2000/tcp open  cisco-sccp
+MAC Address: 52:55:0A:00:02:02 (Unknown)
+
+Nmap scan report for 10.0.2.3
+Host is up (0.0056s latency).
+Not shown: 999 filtered tcp ports (net-unreach)
+PORT   STATE SERVICE
+53/tcp open  domain
+MAC Address: 52:55:0A:00:02:03 (Unknown)
+
+Nmap scan report for 10.0.2.15
+Host is up (0.0000050s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+80/tcp open  http
+
+# Nmap done at Mon May 26 19:35:33 2025 -- 256 IP addresses (3 hosts up) scanned in 7.29 seconds
